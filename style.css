@@ -1,0 +1,55 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+  html, body{
+  	font-family: 'Lucida Handwriting', Cursive;
+  	background-color:#3a4452;
+
+  }
+
+.button{
+	padding: 25px;
+	margin: 3px;
+	border: 2px;
+	border-radius: 30px;
+	cursor: pointer;
+	width: 65px;
+
+	
+}
+
+.row{
+	margin: 8px;
+}
+
+.row input{
+	margin: 0;
+	padding: 10px 0px;
+	border-radius: 9px;
+	font-size: 20px;
+	width: 270px;
+}
+
+.cal{
+	width: 100px;
+	height: 100px;
+	background-color:  Azure;
+
+}
+
+.text-center{
+	color: LightGray;
+}
+
+.container{
+
+	height: 70vh;
+	width: 50vh;
+	display: grid;
+	box-shadow: 0 0 30px #000;
+	background-color: #3a4452;
+}
+
+.container button.button{
+	background-color: #ffd5d8;
+	color: #fc4552;
+}
